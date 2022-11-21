@@ -1,0 +1,76 @@
+.header{
+    position: sticky;
+    top: 0;
+    height: 65px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 40px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-links ul li a:hover{
+    color: #6b6b6b;
+}
+
+.cart{
+    padding-right: 20px;
+    margin-right: 30px;
+}
+
+.cart-length{
+    margin: 1px;
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: super;
+    color: #fdd101;
+}
+
+.home-container{
+    position: absolute;
+    top: 20px;
+    left: 76rem;
+}
+
+.signup-container{
+    position: absolute;
+    top: 20px;
+    left: 81rem;
+}
+
+.cart-container{
+    position: absolute;
+    top: 17px;
+    left: 88rem;
+}
+
+.shopping-icon{
+    position: absolute;
+    top: 7px;
+    left: -1.3rem;
+}
